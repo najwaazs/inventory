@@ -6,6 +6,7 @@
         header("Location: user.php");
         exit;
     }
+    
     $id_user = $_GET['id'];
 
     $query_user = "SELECT * FROM users WHERE id_user = '$id_user'";
